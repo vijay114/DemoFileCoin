@@ -1,4 +1,14 @@
-#FileCoin
+# FileCoin RPC API Implementation using Java & Spring boot
+This repository demonstartes consuming filecoin blockchain RPC APIs using Java and Spring boot. Main Filecoin blockchain APIs consumed in this repo are:
+1. Creating a new wallet
+2. Getting FIL balance of a wallet
+3. Getting nonce for a Filecoin address
+4. Getting chain head of the node
+5. Signing a transaction
+6. Sending a transaction
+
+##### Please note this is not a local/algo implementation of addresses and signing.
+
 
 ## File Coin Lotus Installation Steps (For macOS):
 1. Check if you already have the XCode Command Line Tools installed via the CLI, run:
